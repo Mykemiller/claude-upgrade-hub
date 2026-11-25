@@ -14,7 +14,7 @@ Sources ─▶ Scheduled scout ─▶ New rows in Notion ─▶ You review ─�
 
 ## Setup (about 15 minutes)
 
-1. **Duplicate the Notion template.** Open the *Claude Upgrade Hub — Starter Kit* page link you were sent and click **Duplicate**. You get three databases: **Upgrade Radar** (things you install), **Learn Tracker** (things you learn) and **Weekly Review**.
+1. **Duplicate the Notion template.** Open the [Claude Upgrade Hub — Starter Kit](https://viridian-trader-1fe.notion.site/Claude-Upgrade-Hub-Starter-Kit-42389a0c16808146b226ee5df3764968) and click **Duplicate** (top right). You get three databases: **Upgrade Radar** (things you install), **Learn Tracker** (things you learn) and **Weekly Review**.
    *Don't have the link? Ask Claude to build the page from [`notion/TEMPLATE.md`](notion/TEMPLATE.md).*
 2. **Connect Notion to Claude.** In Claude: Settings → Connectors → Notion. Give it access to your new page.
 3. **Run the setup prompt.** Open a new Claude chat, paste [`prompts/01-setup.md`](prompts/01-setup.md), and answer its two questions (your time zone, and an optional YouTube playlist). Claude finds your page and creates three scheduled tasks:
